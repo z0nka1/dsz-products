@@ -1,0 +1,13 @@
+.content {
+  width: 75%;
+  min-width: 375px;
+  max-width: 2000px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 40px;
+}
