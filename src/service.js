@@ -7,6 +7,7 @@ export async function getAccessToken() {
       headers: {
         'Content-Type': 'application/json'
       },
+      mode: 'no-cors',
       body: JSON.stringify({
         email: 'test_account@dsz.com.au',
         password: 'asdf_123456'
@@ -25,7 +26,8 @@ export async function getProducts(token, pageNo = 1, limit = 40) {
       headers: {
         'Authorization': `jwt ${token}`,
         'Content-Type': 'application/json'
-      }
+      },
+      mode: 'no-cors'
     });
     return await resp.json();
   } catch (err) {
