@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dsz-products/static/css/main.0168e019.css",
-    "main.js": "/dsz-products/static/js/main.01bb43a7.js",
+    "main.js": "/dsz-products/static/js/main.0600eb66.js",
     "index.html": "/dsz-products/index.html",
     "main.0168e019.css.map": "/dsz-products/static/css/main.0168e019.css.map",
-    "main.01bb43a7.js.map": "/dsz-products/static/js/main.01bb43a7.js.map"
+    "main.0600eb66.js.map": "/dsz-products/static/js/main.0600eb66.js.map"
   },
   "entrypoints": [
     "static/css/main.0168e019.css",
-    "static/js/main.01bb43a7.js"
+    "static/js/main.0600eb66.js"
   ]
 }
